@@ -13,3 +13,5 @@ R file descriptions:
 - countysubset.R (creates a list of data frames of the weather stations subsetted by county names)
 - rainfall.R (downloads monthly rainfall data for year 2015 from all weather stations and computes averages per county)
 - app.R (user interface and server for web application. Loads the final data frame to be displayed)
+
+N.B. Some adjustments were made to the application following the Hackathon event
