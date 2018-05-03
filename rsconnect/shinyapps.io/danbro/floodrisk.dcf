@@ -1,0 +1,12 @@
+name: floodrisk
+title: floodrisk
+username:
+account: danbro
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 336683
+bundleId: 1353641
+url: https://danbro.shinyapps.io/floodrisk/
+when: 1525352070.30162
+asMultiple: FALSE
+asStatic: FALSE
