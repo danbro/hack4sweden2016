@@ -1,8 +1,8 @@
 # Download and average monthly rainfall data for year 2015 for all active weather stations
 
 # load data with station numbers
-load('stationsdf.Rda')
-load('stationsli.Rda')
+load('data/stationsdf.Rda')
+load('data/stationsli.Rda')
 result <- data.frame(County = unique(stationsdf$County), Jan = 0, Feb = 0, Mar = 0, Apr = 0, Maj = 0, Jun = 0, Jul = 0, Aug = 0, Sep = 0, Okt = 0, Nov = 0, Dec = 0)
 
 for (i in 1:21) {
@@ -65,4 +65,4 @@ data[,21] <- as.numeric(result[result$County == "Kalmar", 2:13])
 data[,22] <- as.numeric(result[result$County == "Jönköping", 2:13])
 
 # save data frame
-save(data, file = "data.Rda")
+save(data, file = "data/data.Rda")

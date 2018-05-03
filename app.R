@@ -2,7 +2,7 @@
 library(shiny)
 library(shinythemes)
 library(googleVis)
-load("data.Rda")
+load("data/data.Rda")
 
 # create a data frame which holds current values to display
 currdata <- data.frame(matrix(nrow = 21, ncol = 2))

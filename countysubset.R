@@ -1,7 +1,7 @@
 # create a list of data frames subsetted by Swedish counties
 
 # load data frame
-load("stationsdf.Rda")
+load("data/stationsdf.Rda")
 stationsdf$County <- as.factor(stationsdf$County)
 stationsli <- vector("list", 21)
 names(stationsli) <- unique(stationsdf$County)
@@ -16,4 +16,4 @@ for (i in 1:21) {
 }
 
 # save list
-save(stationsli, file = "stationsli.Rda")
+save(stationsli, file = "data/stationsli.Rda")

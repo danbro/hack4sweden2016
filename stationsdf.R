@@ -37,4 +37,4 @@ stationsdf$County[index_nomatch[7]] <- 'Kalmar'
 stationsdf$County[index_nomatch[8]] <- 'Kalmar'
 
 # save new data frame
-save(stationsdf, file = "stationsdf.Rda")
+save(stationsdf, file = "data/stationsdf.Rda")
