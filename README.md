@@ -15,3 +15,6 @@ R file descriptions:
 - app.R (user interface and server for web application. Loads the final data frame to be displayed)
 
 N.B. Some adjustments were made to the application following the Hackathon event
+
+Go to application:
+https://danbro.shinyapps.io/floodrisk/
